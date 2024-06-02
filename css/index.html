@@ -4,8 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>老李说Web - CSS</title>
+    <title>理想80聊Web - CSS</title>
     <link href="../static/css/common.css" rel="stylesheet">
+    <style>
+        .media-block {
+            background-color: gray;
+            border: solid 1px black;
+            /* min-height: contain-floats; */
+        }
+
+        .media-img {
+            float: left;
+            margin-right: 5%;
+        }
+
+        .media-body{
+            /* overflow: auto; */
+            background-color: aqua;
+        }
+
+
+        /* .clear{
+            clear: both;
+        } */
+
+        /* .media-block::after {
+            content: " ";
+            display: block;
+            clear: both;
+        } */
+    </style>
 </head>
 
 <body>
@@ -28,20 +56,37 @@
 
     <div id="container">
         <section id="title-area">
-            <h1>老李说Web - CSS</h1>
-            <p>网页之容颜。</p>
+            <h1>理想80聊Web - CSS</h1>
+            <!-- <p>网页之容颜。</p> -->
         </section>
 
         <main id="content">
+            <div class="media-block">
+                <img class="media-img" src="../static/img/css3.jpeg" />
+                <div class="media-body">
+                    <p>每一个由 VuePress 生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。同时，一旦页面被加载，Vue
+                        将接管这些静态内容，并将其转换成一个完整的单页应用（SPA），其他的页面则会只在用户浏览到的时候才按需加载。</p>
 
-            TODO
+                    <p>每一个由 VuePress 生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。同时，一旦页面被加载，Vue
+                        将接管这些静态内容，并将其转换成一个完整的单页应用（SPA），其他的页面则会只在用户浏览到的时候才按需加载。</p>
+
+                    <p>每一个由 VuePress 生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。同时，一旦页面被加载，Vue
+                        将接管这些静态内容，并将其转换成一个完整的单页应用（SPA），其他的页面则会只在用户浏览到的时候才按需加载。</p>
+                </div>
+                <!-- <div class="clear"></div> -->
+            </div>
+
+            <p>每一个由 VuePress 生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。同时，一旦页面被加载，Vue
+                将接管这些静态内容，并将其转换成一个完整的单页应用（SPA），其他的页面则会只在用户浏览到的时候才按需加载。</p>
+
+            <p>每一个由 VuePress 生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。同时，一旦页面被加载，Vue
+                将接管这些静态内容，并将其转换成一个完整的单页应用（SPA），其他的页面则会只在用户浏览到的时候才按需加载。</p>
 
         </main>
 
-
         <footer>
             <section>
-                MIT Licensed | Copyright © <span id="year">2023</span> <a href="../index.html">老李说Web</a>
+                MIT Licensed | Copyright © <span id="year">2023</span> <a href="../index.html">理想80聊Web</a>
             </section>
         </footer>
 
